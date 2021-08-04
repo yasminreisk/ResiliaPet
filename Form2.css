@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+    margin-left: 1em;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: #84bef5;
+    color: white;
+    width: auto;
+}
+
+#pet{
+    font-size: 45px;
+    color: #ffaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+header .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 8%;
+    width: 84%;
+    float: left;
+    background-color: #8ac6ff;
+}
+
+.link {
+    padding: 10px;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.font {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link-nav{
+    padding: 10px;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #cdb4db;
+    transition: 0.5s;
+}
+
+.container h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    color: #8a817c;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.opcao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    color: #8a817c;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.peludos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foto-peludos {
+    border-radius: 20px;
+}
+
+.peludos2 {
+    margin: 3em 0;
+    border: 1px solid #8a817c;
+    padding: 10px;
+    border-radius: 20px;
+    transition: ease-in-out 0.6s;
+}
+
+.nome {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    color: #ffa8a8;
+}
+
+.peludos2:hover {
+    color: #ffa8a8;
+    border: 4px solid #ffaaaa;
+    transition: ease-in 0.5s;
+    background: none;
+}
+
+.rodape {
+    background-color: #ffaaaa;
+    width: auto;
+    margin: 0px;
+    padding: 25px;
+}
+
+.text3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.par {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+    @media (max-width: 700px){
+        header .container1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .text {
+            display: block;
+            margin: 0 50px;
+        }
+
+        .peludos2 {
+            display: block;
+            margin: 10px 65px;
+            max-width: 100%;
+        }
+    }
